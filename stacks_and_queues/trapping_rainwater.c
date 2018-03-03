@@ -11,7 +11,7 @@
 
 int a[] = {0,1,0,2,1,0,1,3,2,1,2,1};
 
-void trap_water_brute_force(length) {
+void trap_water_brute_force(int length) {
     int ans = 0;
     int i;
     for (i=1 ; i<(length-1) ; i++) {
